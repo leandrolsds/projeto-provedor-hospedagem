@@ -1,0 +1,25 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+h2 {
+    font-size: 17px;
+}
+h3 {
+    font-size: 15px;
+}
+p {
+    font-size: 11px;
+}
+a {
+    font-size: 10px;
+}
+body {
+    margin-top: 65px;
+}

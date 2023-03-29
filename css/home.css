@@ -1,0 +1,172 @@
+
+#banner, #info, .anuncio {
+    padding: 40px 20px;
+}
+
+#banner {
+    text-align: center;
+    background-color: #2f86d6;
+}
+#imagem__banner {
+    background: url("../assets/img/imagem-banner.png")no-repeat center center / contain;
+    width: 100%;
+    height: 200px;
+}
+#texto__banner {
+    color: #dfdfdf;
+}
+#subtitulo__banner {
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 0;
+}
+.paragrafo__banner {
+    font-size: 12px;
+}
+#primeiro__anucio {
+    background-color: #233032;
+}
+#segundo__anucio a {
+    background-color: #233032;
+}
+#subtitulo__segundo__anuncio, .anuncio__conteudo p {
+    margin-bottom: 30px;
+}
+.anuncio {
+    color: #f1f3f7;
+    text-align: center;
+}
+.icone__botao {
+    background: url("../assets/img/icone-foguete.png")no-repeat left / 14px;
+    margin: 5px;
+    padding: 10px;
+}
+.anuncio a {
+    color: #fff;
+    background-color: #2f86d6;
+    padding: 10px;
+    border-radius: 3px; 
+    text-align: center;
+}
+#info {
+    text-align: center;
+}
+.subtitulo__info {
+    margin-bottom: 30px;
+}
+.img__info {
+    background-color: #233032;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.img__info1 {
+    background: url("../assets/img/icone-engrenagens.png")no-repeat center center / contain;
+}
+.img__info2 {
+    background: url("../assets/img/cloud-icone.png")no-repeat center center / contain;
+}
+.img__info3 {
+    background: url("../assets/img/icone-suporte.png")no-repeat center center / contain;
+}
+.subtitulo__conteudo__info {
+    padding: 10px 0;
+}
+.paragrafo__conteudo__info {
+    margin-bottom: 30px;
+}
+#planos {
+    background-color: #F1F3F7;
+    padding: 30px 0;
+}
+table {
+    box-shadow: 0 0 20px 7px rgba(47, 134, 214, 1);
+    width: 90%;
+    max-width: 500px;
+    padding: 20px 0;
+    background-color: #fff;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.dados__tabela td, th{
+    border: 1px   solid #e6eaf1;
+    text-align: center;
+}
+.linha__impar {
+    background-color: #dce1ec;
+}
+caption h2 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+th h3 {
+    font-size: 9px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+th p {
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 7px;
+    color: #9a9b9e;
+}
+.dados__tabela td {
+    padding: 5px 10px;
+    font-size: 10px;
+}
+.imagem__tabela {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+.imagem__tabela.img1 {
+    background: url("../assets/img/pessoal-icone.png")no-repeat center center / contain;
+}
+.imagem__tabela.img2 {
+    background: url("../assets/img/equipe-icone.png")no-repeat center center / contain;
+}
+.imagem__tabela.img3 {
+    background: url("../assets/img/empresa-icone.png")no-repeat center center / contain;
+}
+.imagem__tabela.img4 {
+    background: url("../assets/img/big-tech.png")no-repeat center center / contain;
+}
+#segundo__anucio {
+    background-color: #2f86d6;
+}
+#rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+#contato {
+    margin: 40px auto 0 auto;
+}
+#contato p {
+    font-size: 12px;
+    color: #233032;
+    margin: 8px auto;
+}
+.icone__contato {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2f86d6;
+    margin-right: 3px;
+}
+#copyright {
+    text-align: center;
+    padding: 5px;
+    color: #F1F3F7;
+    background-color: #233032;
+}
+#copyright p {
+    font-size: 9px;
+}
+span {
+    color: #2f86d6;
+}

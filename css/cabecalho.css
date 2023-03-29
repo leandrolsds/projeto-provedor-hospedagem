@@ -1,0 +1,114 @@
+.logo, .logo__tabela {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.logo {
+    background: url("../assets/img/logo-icone.png")no-repeat center center / cover;
+    
+}
+.logo__tabela {
+    background: url("../assets/img/logo-icone-escuro.png")no-repeat center center / cover;
+}
+.titulo__cabecalho {
+    font-size: 17px;
+    color: #233032;
+}
+.paragrafo__cabecalho__tabela, .paragrafo__cabecalho__home {
+    font-size: 9px;
+}
+.paragrafo__cabecalho__tabela {
+    color: #fff;
+}
+.paragrafo__cabecalho__home {
+    color: #2f86d6;
+}
+.cabecalho__tabela__background {
+    background-color: #2f86d6;
+}
+.cabecalho__home__background {
+    background-color: #fff;
+}
+.cabecalho {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 100;
+}
+.coteudo__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active {
+    font-weight: bold;
+}
+.active .link_menu:hover {
+    border-bottom: 3px solid;
+    font-weight: bold;
+}
+#btn__hamburguer {
+    border-top: 2px solid;
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    background: transparent;
+    color:#233032;
+}
+#btn__hamburguer::before, #btn__hamburguer::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 8px;
+    transition: .3s;
+    position: relative;
+}
+#nav.active #btn__hamburguer {
+    color:#233032;
+    border-top-color: transparent;
+    
+}
+#nav.active #btn__hamburguer::before {
+    background: currentColor;
+    transform: rotate(45deg);
+}
+#nav.active #btn__hamburguer::after {
+    transform: rotate(-45deg);
+    top: -10px;
+}
+#lista__menu{
+    display: block;
+    top: 65px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0px;
+    transition: .5s;
+    z-index: 100;
+    visibility: hidden;
+    overflow-y: hidden;
+   
+}
+#nav.active #lista__menu {
+    height: 148px;
+    visibility: visible;
+}
+.item__menu {
+    display: flex;
+    align-items: center;
+    padding:  5px;
+    border-bottom: 1px solid #f1f3f7;
+    background-color: #2f86d6;
+}
+.link__menu {
+    margin: 0px auto;
+    font-size: 17px;
+    color: #233032;
+}

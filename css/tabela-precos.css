@@ -1,0 +1,52 @@
+#precos {
+    padding-top: 40px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 900px;
+    border-collapse: collapse;
+}
+.background__cinza {
+    border: 1px solid #fff;
+    font-weight: bold;
+    background-color: #e4eef7;
+}
+td {
+    border: 1px solid #e6eaf1;
+    height: 30px;
+    
+}th h2 {
+    font-size: 12px;
+}
+th p {
+    color: #a5adb1;
+}
+tr td, p {
+    padding: 3px;
+    font-size: 7px;
+    text-align: center;
+}
+td span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2f86d6;
+    margin: 0 auto;
+}
+footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: #2f86d6;
+}
+.copyright {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #fff;
+}
+.copyright span {
+    font-weight: bold;
+    color: #2f86d6;
+}
