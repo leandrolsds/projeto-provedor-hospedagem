@@ -1,7 +1,7 @@
 .logo, .logo__tabela {
-    width: 45px;
-    height: 45px;
-    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
 }
 .logo {
     background: url("../assets/img/logo-icone.png")no-repeat center center / cover;
@@ -11,6 +11,7 @@
     background: url("../assets/img/logo-icone-escuro.png")no-repeat center center / cover;
 }
 .titulo__cabecalho {
+    line-height: 15px;
     font-size: 17px;
     color: #233032;
 }
@@ -37,16 +38,13 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 8px 0;
     z-index: 100;
 }
 .coteudo__logo {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.active {
-    font-weight: bold;
 }
 .active .link_menu:hover {
     border-bottom: 3px solid;
@@ -56,17 +54,17 @@
     border-top: 2px solid;
     cursor: pointer;
     display: block;
-    width: 30px;
+    width: 20px;
     background: transparent;
     color:#233032;
 }
 #btn__hamburguer::before, #btn__hamburguer::after {
     content: '';
     display: block;
-    width: 30px;
+    width: 20px;
     height: 2px;
     background: currentColor;
-    margin-top: 8px;
+    margin-top: 5px;
     transition: .3s;
     position: relative;
 }
@@ -81,11 +79,11 @@
 }
 #nav.active #btn__hamburguer::after {
     transform: rotate(-45deg);
-    top: -10px;
+    top: -7px;
 }
 #lista__menu{
     display: block;
-    top: 65px;
+    top: 51px;
     position: absolute;
     left: 0;
     width: 100%;
@@ -111,4 +109,29 @@
     margin: 0px auto;
     font-size: 17px;
     color: #233032;
+}
+.color__link__tabela {
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    #btn__hamburguer {
+        display: none;
+    }
+    #lista__menu {
+        top: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        visibility: visible;
+        overflow-y: visible;
+        width: auto;
+    }
+    .item__menu {
+        border-bottom: none;
+        background-color: transparent;
+    }
+    #nav.active #lista__menu {
+        height: auto;
+    }
 }

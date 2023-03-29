@@ -1,11 +1,11 @@
 #precos {
+    
     padding-top: 40px;
 }
-
 table {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 900px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
     border-collapse: collapse;
 }
 .background__cinza {
