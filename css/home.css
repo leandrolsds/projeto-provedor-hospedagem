@@ -50,7 +50,6 @@
     text-align: center;
 }
 #info {
-
     text-align: center;
 }
 .subtitulo__info {
@@ -115,8 +114,9 @@ th p {
     color: #9a9b9e;
 }
 .dados__tabela td {
+    height: 50px;
     padding: 5px 10px;
-    font-size: 10px;
+    font-size: 9px;
 }
 .imagem__tabela {
     display: block;
@@ -145,6 +145,8 @@ th p {
     padding: 40px 0;
 }
 #contato {
+    width: 95%;
+    max-width: 300px;
     margin: 40px auto 0 auto;
 }
 #contato p {
@@ -171,4 +173,52 @@ th p {
 }
 span {
     color: #2f86d6;
+}
+@media screen and (min-width: 768px) {
+    #banner, #info {
+        padding: 55px 20px;
+    }
+
+    #conteudo__banner {
+        margin: auto;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+    }
+    #texto__banner {
+        text-align: initial;
+    }
+    .paragrafo__banner {
+        font-size: 10px;
+    }
+    .anuncio {
+        padding: 20px 0;
+        width: 500px;
+        justify-content:space-between;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+    .anuncio a {
+        padding: 8px;
+    }
+    .anuncio__conteudo h2 {
+        font-size: 12px;
+    }
+    .anuncio__conteudo p {
+        font-size: 8px;
+        margin-bottom: 0;
+    }
+    #subtitulo__segundo__anuncio, .anuncio__conteudo p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    #info {
+        width: 500px;
+        margin: auto;
+    }
+    .dados__tabela td {
+        height: 40px;
+    }
 }

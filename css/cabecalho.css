@@ -114,6 +114,9 @@
     color: #fff;
 }
 @media screen and (min-width: 768px) {
+    .link__menu {
+        font-size: 12px;
+    }
     #btn__hamburguer {
         display: none;
     }

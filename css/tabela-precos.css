@@ -18,14 +18,14 @@ td {
     height: 30px;
     
 }th h2 {
-    font-size: 12px;
+    font-size: 8px;
 }
 th p {
     color: #a5adb1;
 }
 tr td, p {
     padding: 3px;
-    font-size: 7px;
+    font-size: 6px;
     text-align: center;
 }
 td span {
@@ -49,4 +49,9 @@ footer {
 .copyright span {
     font-weight: bold;
     color: #2f86d6;
+}
+@media screen and (min-width: 768px) {
+    tr td, p {
+        font-size: 8px;
+    }
 }
